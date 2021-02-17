@@ -1,0 +1,59 @@
+{
+  "network": "moonbase",
+  "chainId": 1287,
+  "defaultPrecision": 2,
+  "rpcUrl": "https://rpc.testnet.moonbeam.network",
+  "wsUrl": "wss://wss.testnet.moonbeam.network",
+  "subgraphUrl": "",
+  "explorer": "",
+  "exchangeUrl": "http://localhost:3000",
+  "addresses": {
+    "bFactory": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "bActions": "",
+    "dsProxyRegistry": "",
+    "proxy": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+    "crpFactory": "",
+    "weth": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "multicall": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+  },
+  "connectors": {
+    "injected": {
+      "id": "injected",
+      "name": "MetaMask"
+    },
+    "walletconnect": {
+      "id": "walletconnect",
+      "name": "WalletConnect",
+      "options": {
+        "rpc": {
+          "1": "https://cloudflare-eth.com"
+        }
+      }
+    },
+    "portis": {
+      "id": "portis",
+      "name": "Portis",
+      "options": {
+        "network": "mainnet",
+        "dappId": "3f1c3cfc-7dd5-4e8a-aa03-71ff7396d9fe"
+      }
+    },
+    "walletlink": {
+      "id": "walletlink",
+      "name": "Coinbase",
+      "options": {
+        "appName": "Pool management - Balancer",
+        "darkMode": true,
+        "chainId": 1,
+        "ethJsonrpcUrl": "https://cloudflare-eth.com"
+      }
+    },
+    "fortmatic": {
+      "id": "fortmatic",
+      "name": "Fortmatic",
+      "options": {
+        "apiKey": "pk_live_9CE8FD92E54684ED"
+      }
+    }
+  }
+}
